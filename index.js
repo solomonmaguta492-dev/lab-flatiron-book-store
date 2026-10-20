@@ -48,5 +48,10 @@ const bookStoreTitle = document.getElementById(`header`);
 bookStoreTitle.textContent = bookStore.name;
 
 const bookList = document.getElementById(`book-list`);
-for (const book of bookStore.books) {}
+for (const book of bookStore.books) {
+    const bookContainer = document.createElement(`li`);
+    const bookTitle = document.createElement(`h3`);
+    const bookAuthor = document.createElement(`p`);
+    const bookImage = document.createElement(`img`);
+}
 
