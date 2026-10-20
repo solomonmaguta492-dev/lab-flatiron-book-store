@@ -57,5 +57,8 @@ for (const book of bookStore.books) {
     bookTitle.textContent = book.title;
     bookAuthor.textContent = book.author;
     bookImage.src = book.imageUrl;  
+
+    bookContainer.append(bookTitle, bookAuthor, bookImage);
+    bookList.append(bookContainer);
 }
 
