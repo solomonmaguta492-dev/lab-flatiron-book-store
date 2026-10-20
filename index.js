@@ -47,3 +47,6 @@ const bookStore = {
 const bookStoreTitle = document.getElementById(`header`);
 bookStoreTitle.textContent = bookStore.name;
 
+const bookList = document.getElementById(`book-list`);
+for (const book of bookStore.books) {}
+
